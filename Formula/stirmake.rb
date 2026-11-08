@@ -3,7 +3,7 @@ class Stirmake < Formula
   homepage "https://github.com/Aalto5G/stirmake"
   url "https://github.com/Aalto5G/stirmake/releases/download/v0.4.4/stirmake-v0.4.4.tar.gz"
   sha256 "2e8d385f563a563e2526ba92c8765d90c21c013a0a5038c08c00a22c9ed17c95"
-  license "NOASSERTION"
+  license "MIT"
 
   deny_network_access!
 
