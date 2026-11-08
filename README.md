@@ -1,16 +1,16 @@
-# Jmtilli Stirmake
+# Homebrew tap for stirmake
 
-## How do I install these formulae?
+## How do I install stirmake?
 
-`brew install jmtilli/stirmake/<formula>`
+`brew install jmtilli/stirmake/stirmake`
 
-Or `brew tap jmtilli/stirmake` and then `brew install <formula>`.
+Or `brew tap jmtilli/stirmake` and then `brew install stirmake`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "jmtilli/stirmake"
-brew "<formula>"
+brew "stirmake"
 ```
 
 ## Documentation
