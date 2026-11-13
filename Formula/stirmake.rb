@@ -7,6 +7,8 @@ class Stirmake < Formula
 
   deny_network_access!
 
+  conflicts_with "stirmakebin", because: "source version of stirmake"
+
   def install
     Dir.chdir("stirc") do
       system "./bootstrapnomake.sh"
