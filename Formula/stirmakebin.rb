@@ -5,7 +5,11 @@ class Stirmakebin < Formula
   sha256 "932c0feca981f075cd848e7fcf0b0587351b1951c7d5b5781a6e7fdbe6d68021"
   license "MIT"
 
-  no_autobump! because: :requires_manual_update
+  # Only works in official Homebrew taps
+  #no_autobump! because: :requires_manual_update
+  livecheck do
+    skip "Multi-platform binary URLs require manual updates"
+  end
 
   conflicts_with "stirmake", because: "binary version of stirmake"
 
