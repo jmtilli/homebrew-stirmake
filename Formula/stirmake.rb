@@ -5,9 +5,9 @@ class Stirmake < Formula
   sha256 "932c0feca981f075cd848e7fcf0b0587351b1951c7d5b5781a6e7fdbe6d68021"
   license "MIT"
 
-  deny_network_access!
-
   conflicts_with "stirmakebin", because: "source version of stirmake"
+
+  deny_network_access!
 
   def install
     Dir.chdir("stirc") do
